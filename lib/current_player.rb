@@ -1,7 +1,7 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
-  if (if board)
+  if (board.X or board.)
     return board.size
   end
 end
