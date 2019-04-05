@@ -1,5 +1,3 @@
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
 def turn_count(board)
   board = 0
   board.each do |board|
