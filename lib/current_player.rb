@@ -1,10 +1,10 @@
 def turn_count(board)
-  board = 0
-  board.each do |board|
-    if board == "X" || board == "O"
-      board +=1 
+  le = 0
+  board.each do |le|
+    if le == "X" || le == "O"
+      le +=1 
     end
   end
-  return board
+  return le
 end
 
