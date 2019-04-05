@@ -1,8 +1,11 @@
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def turn_count(board)
-  if (board."X" || board."O")
-    return board.size
+  board = 0
+  board.each do |board|
+    if board == "X" or board == "O"
+      board +=1 
+    end
   end
 end
 
